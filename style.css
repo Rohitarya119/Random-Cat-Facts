@@ -1,0 +1,74 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f9e0ae, #f76967);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Container */
+
+.container {
+    text-align: center;
+}
+
+
+/* Card */
+
+.card {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+
+/* Heading */
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+/* Fact text */
+
+#facts {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+
+/* Button */
+
+#btn {
+    background: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#btn:hover {
+    background: #e85c50;
+}
